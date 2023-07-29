@@ -16,3 +16,10 @@
 // 8 x 5 = 40
 // 9 x 5 = 45
 // 10 x 5 = 50
+
+const tableFor = 5 // change this number to generate your desired multiplication table
+
+for (let i = 1; i<=10 ; i++) {
+    let result = `${i} X ${tableFor} = ${i*tableFor}`
+    console.log(result)
+}
