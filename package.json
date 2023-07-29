@@ -1,7 +1,8 @@
 {
   "name": "mern",
   "version": "1.0.0",
-  "description": "",
+  "homepage": "https://ramrachai.github.io/ostad-mern",
+  "description": "A project to showcase all the assignments of MERN stack course conducted by ostad.app",
   "main": "index.js",
   "directories": {
     "test": "test"
