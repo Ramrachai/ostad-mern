@@ -36,13 +36,17 @@ function showInUi_grade(){
 
     gradeForm.addEventListener("submit", (e) =>{
         e.preventDefault()
-        if(!gradeInput.value){
+        if (!gradeInput.value){
             alert("Please enter number to show Grade")
+        } else if (gradeInput.value > 100 || gradeInput.value < 0){
+            alert("Invalid number. Number range is :  0 to 100")
+            gradeInput.value = null
         } else {
             gradeResult.classList.remove('d-none')
             const grade = gradeCalculator(gradeInput.value)
             gradeResult.innerHTML = `<p> Your grade is =  <span class='text-warning'> "${grade}"  </span> </p>`
         }
+
         filterForm.reset()
     })
 }
