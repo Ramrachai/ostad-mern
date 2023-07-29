@@ -43,7 +43,6 @@ function showInUi_grade(){
             const grade = gradeCalculator(gradeInput.value)
             gradeResult.innerHTML = `<p> Your grade is =  <span class='text-warning'> "${grade}"  </span> </p>`
         }
-
         filterForm.reset()
     })
 }
