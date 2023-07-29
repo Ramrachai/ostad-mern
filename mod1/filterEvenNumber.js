@@ -17,3 +17,28 @@ function filterEvenNumbers(arr) {
 
 const filteredArr = filterEvenNumbers(originalArr)
 console.log("==Filtered Even numbers are===> ", filteredArr)
+
+
+function showInUi_multi(){
+    const filterForm= document.getElementById("filterForm")
+    const filterInput = document.getElementById("filterInput")
+    const filterResult = document.getElementById("filterResult")
+
+    filterForm.addEventListener("submit", (e) =>{
+        e.preventDefault()
+
+        if(!filterInput.value){
+            alert("Please enter number separated with comma")
+        } else {
+            //convert input string to numbered array
+            const arr = filterInput.value.split(',').map(Number)
+            const filteredArr = filterEvenNumbers(arr)
+            filterResult.classList.remove("d-none")
+            filterResult.innerText = `Even numbers are : ${filteredArr}`
+        }
+
+        filterForm.reset()
+    })
+}
+
+showInUi_multi()
