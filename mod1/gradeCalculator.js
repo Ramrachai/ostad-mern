@@ -39,7 +39,6 @@ function showInUi_grade(){
         if(!gradeInput.value){
             alert("Please enter number to show Grade")
         } else {
-            console.log("input is === ", gradeInput.value)
             gradeResult.classList.remove('d-none')
             const grade = gradeCalculator(gradeInput.value)
             gradeResult.innerHTML = `<p> Your grade is =  <span class='text-warning'> "${grade}"  </span> </p>`

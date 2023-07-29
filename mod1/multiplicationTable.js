@@ -43,7 +43,6 @@ function showInUi_multi(){
         } else {
             let num = Number(multiplicationInput.value)
             multiplicationResult.innerHTML = ""
-            console.log("input value === ", num)
             multiplicationResult.classList.remove("d-none")
             for (let i = 1; i<=10 ; i++) {
                 multiplicationResult.innerHTML += `<p> ${i} X ${num} = ${i*num} </p>`
