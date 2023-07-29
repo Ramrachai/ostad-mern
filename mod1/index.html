@@ -15,7 +15,7 @@
 
 <body>
 
-  <main class="d-flex justify-content-center mt-5 gap-4 align-items-start">
+  <main class="d-flex justify-content-center mt-5 gap-4 align-items-start flex-wrap">
     <section>
       <div class="card"  style="width: 25rem;">
         <h5 class="card-header">1. Discount Calculator</h5>
@@ -53,9 +53,23 @@
           <form id="multiplicationForm">
             <input class="form-control" type="number" id="multiplicationInput" placeholder="Enter a number">
             <div class="form-text">example: 5</div>
-            <button type="submit" class="btn btn-primary my-3">Show Table</button>
+            <button type="submit" class="btn btn-primary my-3">Generate Table</button>
           </form>
           <div class="bg-dark text-light p-2 rounded d-none" id="multiplicationResult"></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="card" style="width: 25rem;">
+        <h5 class="card-header">4. Grade Calculator</h5>
+        <div class="card-body">
+          <form id="gradeForm">
+            <input class="form-control" type="number" id="gradeInput" placeholder="Enter a number">
+            <div class="form-text">example: 86</div>
+            <button type="submit" class="btn btn-primary my-3">Show Grade</button>
+          </form>
+          <div class="bg-dark text-light p-2 rounded d-none" id="gradeResult"></div>
         </div>
       </div>
     </section>

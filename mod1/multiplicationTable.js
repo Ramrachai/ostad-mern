@@ -17,12 +17,19 @@
 // 9 x 5 = 45
 // 10 x 5 = 50
 
+
+//===== This is for developer console *start ===
 const tableFor = 5 // change this number to generate your desired multiplication table
 
 for (let i = 1; i<=10 ; i++) {
     let result = `${i} X ${tableFor} = ${i*tableFor}`
     console.log(result)
 }
+
+//===== This is for developer console *end ===
+
+
+//===== This is for Webpage UI *start ===
 
 function showInUi_multi(){
     const multiplicationForm= document.getElementById("multiplicationForm")
@@ -48,3 +55,4 @@ function showInUi_multi(){
 }
 
 showInUi_multi()
+//===== This is for Webpage UI *end ===
