@@ -15,9 +15,9 @@
 <body>
     <h2 class="text-center fs-3 my-3 text-uppercase">Assignment of Module 2 </h2>
 
-    <main class="d-flex gap-3 justify-content-between container" style="flex-wrap: wrap;">
-        <section>
-            <div class="card" style="width: 20rem;">
+    <main class="d-flex gap-2 justify-content-between container flex-wrap" >
+        <section style="flex:1">
+            <div class="card">
                 <div class="card-header">
                     1) DOM Manipulation
                 </div>
@@ -29,8 +29,8 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="card" style="width: 20rem;">
+        <section style="flex: 1;">
+            <div class="card">
                 <div class="card-header">
                     1) Click Counter
                 </div>
@@ -46,8 +46,8 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="card" style="width: 20rem;">
+        <section style="flex: 1;">
+            <div class="card">
                 <div class="card-header">
                     3) Image Switcher
                 </div>
@@ -66,7 +66,31 @@
                 </div>
             </div>
         </section>
-        <section>4</section>
+        <section style="flex:3">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <span>4) Ajax</span>
+                    <div class="text-center d-none" id="ajax-loading">
+                        <span class="spinner-border spinner-border-sm"></span> Loading...
+                    </div>
+                    <button class="btn btn-dark" id="ajax-btn">Call API</button>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-hover table-responsive">
+                        <thead>
+                            <tr>
+                                <th>User_Id</th>
+                                <th>Id</th>
+                                <th>Title</th>
+                                <th>Body</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ajax-tbody"></tbody>
+                    </table>
+                    
+                </div>
+            </div>
+        </section>
     </main>
 
 
