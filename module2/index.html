@@ -13,9 +13,21 @@
 </head>
 
 <body>
-    <h2 class="text-center fs-3 my-4 p-4 text-uppercase bg-dark text-light container rounded">Assignment of Module 2 </h2>
 
-    <main class="d-flex gap-2 justify-content-between container flex-wrap" >
+    <nav class="d-flex container bg-light justify-content-between align-items-center my-4 rounded p-3 shadow">
+        <h4 class="">Module 2 assignment </h4>
+        <ul class="navbar-nav d-flex flex-row gap-3">
+            <li class="nav-item">
+                <a class="btn btn-primary" href="https://ramrachai.github.io/ostad-mern">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-dark" href="https://github.com/Ramrachai/ostad-mern/">Source code </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <main class="d-flex gap-2 justify-content-between container flex-wrap">
         <section style="flex:1">
             <div class="card" style="height: 300px;">
                 <div class="card-header">
@@ -34,8 +46,7 @@
                     2) Click Counter
                 </div>
                 <div class="card-body">
-                    <h5 style="height: 145px;" 
-                        id="counterResult"
+                    <h5 style="height: 145px;" id="counterResult"
                         class="card-text fs-1 text-center my-3 text-uppercase">0</h5>
 
                     <div class="d-flex justify-content-between">
@@ -53,11 +64,8 @@
                     3) Image Switcher
                 </div>
                 <div class="card-body">
-                    <img 
-                    id="imgSlider" 
-                    src="./photos/1.jpg" 
-                    class="rounded" 
-                    style="height: 160px; width: 100%; object-fit: cover;">
+                    <img id="imgSlider" src="./photos/1.jpg" class="rounded"
+                        style="height: 160px; width: 100%; object-fit: cover;">
                     <div class="d-flex justify-content-between mt-3 ">
                         <button id="imgSlider-prev" type="button"
                             class="btn btn-dark m-auto d-inline-block">Previous</button>
@@ -88,7 +96,7 @@
                         </thead>
                         <tbody id="ajax-tbody"></tbody>
                     </table>
-                    
+
                 </div>
             </div>
         </section>
