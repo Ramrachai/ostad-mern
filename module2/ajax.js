@@ -20,8 +20,8 @@ const showInTable = async () => {
         data.map(item => {
             ajaxTbody.innerHTML += `
       <tr>
-        <td>${item.userId}</td>
-        <td>${item.id}</td>
+        <td class="d-none d-sm-table-cell">${item.userId}</td>
+        <td class="d-none d-sm-table-cell">${item.id}</td>
         <td>${item.title}</td>
         <td>${item.body}</td>
       </tr>
