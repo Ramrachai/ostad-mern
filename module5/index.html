@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-okaidia.min.css"
+        integrity="sha512-5HvW0a7ihK3ro2KhwEksDHXgIezsTeZybZDIn8d8Y015Ny+t7QWSIjnlCTjFzlK7Klb604HLGjsNqU/i5mJLjQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Module 5 assignment | MERN course | OSTAD</title>
+</head>
+
+<body>
+    <div class="">
+
+        <nav class="d-flex container bg-light justify-content-between align-items-center my-4 rounded p-3 shadow">
+            <h4 class="">Module 5 assignment </h4>
+            <ul class="navbar-nav d-flex flex-row gap-3">
+                <li class="nav-item">
+                    <a class="btn btn-primary" href="/ostad-mern/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-dark" href="https://github.com/Ramrachai/ostad-mern/">Source code </a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <main class="container" id="qa-list">
+            <section>
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between">
+                        <p>Assignment Qeustion and Answer</p>
+                        <a href="#" class="r-btn">View on github</a>
+                    </div>
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-12 col-md-6 mb-2"> 
+                                <pre class="language-html">
+In this assignment, you will build a server using 
+NodeJs http module & fs module. Your
+server should listen on port 3000.
+
+<b>Requirements</b>
+Your file server should meet the following requirements:
+
+1.It should use the http module to create an HTTP server.
+2.It should listen on port 3000.
+3.It should log a message to the console when it starts listening on port 3000.
+4.If you request this url “/” then the response is “This is Home Page”.
+5.If you request this url “/about” then the response is “This is About Page”.
+6.If you request this url “/contact” then the response is “This is Contact Page”.
+7.If you request this url “/file-write” then fs.writeFile() method will create a file
+“demo.txt” and write the text “hello world” in this file.
+8.And of course you need to end the server response using res.end()
+
+<b>Instructions:</b>
+Follow these instructions to complete the assignment:
+Create a new file named server.js.
+Write the code for your file server in server.js
+                                </pre>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <pre class="answer">
+                                    <code class="language-javascript" id="answer">
+    const http = require('http');
+    const fs = require('fs');
+
+    const server = http.createServer((req, res) => {
+        // Log a message when the server starts listening
+        console.log('Server is listening on port 3000');
+
+        // Set content type for the response
+        res.setHeader('Content-Type', 'text/plain');
+
+        // Handle different URL paths
+        if (req.url === '/') {
+            res.end('This is Home Page');
+        } else if (req.url === '/about') {
+            res.end('This is About Page');
+        } else if (req.url === '/contact') {
+            res.end('This is Contact Page');
+        } else if (req.url === '/file-write') {
+            // Use fs.writeFile to create a file and write content
+            fs.writeFile('demo.txt', 'hello world', (err) => {
+                if (err) {
+                    res.statusCode = 500;
+                    res.end('Internal Server Error');
+                } else {
+                    res.end('File demo.txt created and content written');
+                }
+            });
+        } else {
+            res.statusCode = 404;
+            res.end('Page not found');
+        }
+    });
+
+    // Listen on port 3000
+    server.listen(3000);
+                                        
+                                    </code>
+                                </pre>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    </div> <!-- root container finish-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="prism.js"></script>
+    <script src="../script.js"></script>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
