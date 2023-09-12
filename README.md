@@ -6,5 +6,7 @@ This is a repository to showcase all the assignments or projects while pursuing 
 ### 3. Module-3 assignment Live link => <a href="https://ramrachai.github.io/ostad-mern/module3/index.html"> Click here </a>
 ### 4. Module-4 is Holiday. No assignment in this module. 
 ### 5. Module-5 assignment Live link => <a href="https://ramrachai.github.io/ostad-mern/module5/index.html"> Click here </a>
-### 6. Module-6 assignment Live link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module6"> Click here </a>
+### 6. Module-6 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module6"> Click here </a>
+
+### 6. Module-7 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module7"> Click here </a>
 
