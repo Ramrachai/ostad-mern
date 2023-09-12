@@ -8,5 +8,5 @@ This is a repository to showcase all the assignments or projects while pursuing 
 ### 5. Module-5 assignment Live link => <a href="https://ramrachai.github.io/ostad-mern/module5/index.html"> Click here </a>
 ### 6. Module-6 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module6"> Click here </a>
 
-### 6. Module-7 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module7"> Click here </a>
+### 7. Module-7 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module7"> Click here </a>
 
