@@ -9,4 +9,6 @@ This is a repository to showcase all the assignments or projects while pursuing 
 ### 6. Module-6 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module6"> Click here </a>
 
 ### 7. Module-7 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module7"> Click here </a>
+### 8. Module-8 no Assignment there. 
+### 9. Module-9 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module9"> Click here </a>
 
