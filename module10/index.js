@@ -18,7 +18,7 @@ const db = mongoose.connection;
 // Check database connection status
 db.on('error', (err) => {
   console.error(`MongoDB Connection Error: ${err}`);
-  process.exit(1); // Exit the app if the database connection fails
+  process.exit(1); 
 });
 db.once('open', () => {
   console.log('Connected to MongoDB');
@@ -26,24 +26,16 @@ db.once('open', () => {
   // Middleware for JWT authentication
   const authVerify = require('./src/Middleware/authVerify');
   app.use(authVerify);
+  
   // Routes
   const studentsRoutes = require('./src/Routes/studentsRoutes');
-
   const worksRoutes = require('./src/Routes/worksRoutes');
-  console.log("==worksRoutes passed==")
-
   const otpRoutes = require('./src/Routes/otpRoutes');
-  console.log("==otpRoutes passed==")
 
 
   app.use('/students', studentsRoutes);
-  console.log("==app.use('/students' passed==")
-  
   app.use('/works', worksRoutes);
-  console.log("==app.use('/works' passed==")
-
   app.use('/otp', otpRoutes);
-  console.log("==app.use('/otp' passed==")
 
 
   // Error Handling Middleware
