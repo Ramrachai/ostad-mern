@@ -1,0 +1,30 @@
+
+
+* {
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: rgb(21, 34, 45);
+}
+.app-wrapper{
+  color:aliceblue ; 
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+}
+.app-wrapper h2 {
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(113, 200, 243); 
+}
+
