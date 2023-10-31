@@ -15,6 +15,7 @@ Optional:
 - Show how JSX Conditional Rendering Using Ternary Operator works  
 
 ## Screenshot: 
-![image](https://github.com/Ramrachai/ostad-mern/assets/47687976/78074ba4-9aef-485d-9cf9-5a579eea46c5)
+![image](https://github.com/Ramrachai/ostad-mern/assets/47687976/f4c09a87-1404-4503-8bb1-a2786f08fb75)
+
 
 
