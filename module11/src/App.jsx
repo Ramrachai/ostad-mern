@@ -6,6 +6,7 @@ import About from "./components/About"
 import Service from "./components/Service"
 import Project from "./components/Project"
 import Footer from "./components/Footer"
+import Person, {Greet, ShowDay, Temperature} from './components/Test';
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
       <Service />
       <Project />
       <Footer />
+
+      
     </div>
   )
 }
