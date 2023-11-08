@@ -13,5 +13,5 @@ This is a repository to showcase all the assignments or projects while pursuing 
 ### 10. Module-10 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module10"> Click here </a>
 ### 11. Module-11 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module11"> Click here </a>
 ### 12. Module-12 : no Assignment there. 
-### 13. Module-13 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module11"> Click here </a>
+### 13. Module-13 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module13"> Click here </a>
 
