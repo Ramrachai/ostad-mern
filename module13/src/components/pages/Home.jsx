@@ -1,31 +1,28 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Card from 'react-bootstrap/Card';
-import { Link } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 import Badge from 'react-bootstrap/Badge';
-import Alert from 'react-bootstrap/Alert';
 
 export default function Home() {
 
-    const [timer, setTimer] = useState(10); // Initial time in seconds
+    const [timer, setTimer] = useState(10);
     const [isActive, setIsActive] = useState(false);
     const timerRef = useRef(null);
-    const [inputValue, setInputValue] = useState(10); // Input field value
-
+    const [inputValue, setInputValue] = useState(10);
     const handleInputChange = (event) => {
         setInputValue(event.target.value);
     };
 
     const startTimer = () => {
         if (inputValue && !isActive) {
-            setTimer(parseInt(inputValue, 10)); // Parse and set the timer duration
+            setTimer(parseInt(inputValue, 10));
             setIsActive(true);
         }
     };
 
     const resetTimer = () => {
         setIsActive(false);
-        setTimer(10); 
+        setTimer(10);
         setInputValue(10)
     };
 
@@ -49,7 +46,6 @@ export default function Home() {
     }, [isActive, timer]);
 
 
-
     return (
         <Card style={{ width: '100%', height: "80vh" }}>
             <Card.Body>
@@ -61,10 +57,6 @@ export default function Home() {
                 <div>
                     <h4>Countdown Timer</h4>
                     <p>Time Remaining: <Badge bg="danger">{timer}</Badge>  seconds</p>
-
-
-
-
                     <div>
                         <Form.Control
                             className='form-group w-25 d-inline'
