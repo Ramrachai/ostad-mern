@@ -1,3 +1,5 @@
+
+// remove '/ostad-mern' from link path if it is localhost
 const isLocalHost = (window.location.hostname === "localhost") ? true : false;
 if(isLocalHost) {
     let links = document.querySelectorAll("a")
@@ -13,3 +15,7 @@ if(isLocalHost) {
 } else {
     console.log("Not localhost")
 }
+
+// 
+document.getElementById("footer-year").innerHTML = new Date().getFullYear()
+
