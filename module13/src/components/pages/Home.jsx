@@ -50,6 +50,7 @@ export default function Home() {
         <Card style={{ width: '100%', height: "80vh" }}>
             <Card.Body>
                 <Card.Title as={'h1'}>Home Page </Card.Title>
+                <h3 className='text-center '>Module 13 assignemnt</h3>
                 <Card.Text >
                     A simle Home page to demonstrate <b> useState() ,useEffect(), useRef() </b> hooks.
                 </Card.Text>
