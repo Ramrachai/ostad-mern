@@ -41,3 +41,8 @@ body {
 .conditional-components span {
   color: yellow;
 }
+
+.active {
+  border-radius: 6px;
+  background-color: burlywood !important;
+}
