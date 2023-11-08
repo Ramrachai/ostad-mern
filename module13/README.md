@@ -10,7 +10,7 @@ In this assignment, you must Create a New React App Using Vite. Must be Organizi
 - Beautify the design with CSS. 
   
 ### Screenshot: 
-![image](https://github.com/Ramrachai/ostad-mern/assets/47687976/f4c09a87-1404-4503-8bb1-a2786f08fb75)
+
 
 
 
