@@ -1,25 +1,22 @@
-import './App.css'
-import React from 'react';
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import About from "./components/About"
-import Service from "./components/Service"
-import Project from "./components/Project"
-import Footer from "./components/Footer"
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import { Navbar } from "./components/Navbar";
+import { About, Contact, Home, Services, Blog, Projects } from "./components/pages";
 
 function App() {
   return (
-    <div className='app-wrapper'>
-      <Header />
-      <Hero />
-      <About />
-      <Service />
-      <Project />
-      <Footer />
-
-      
+    <div className="App">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

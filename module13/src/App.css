@@ -14,7 +14,8 @@
   text-align: center;
 }
 body {
-  background-color: rgb(21, 34, 45);
+  background-color: rgb(21, 34, 45) !important;
+  color:#ededed  !important; 
 }
 .app-wrapper{
   color:#ededed ; 
