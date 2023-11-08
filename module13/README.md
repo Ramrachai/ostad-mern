@@ -8,6 +8,11 @@ In this assignment, you must Create a New React App Using Vite. Must be Organizi
 - Each page should have four unique components.
 - Must be used: - useRef, useState,  useEffect, NavLink, React Router Dom
 - Beautify the design with CSS. 
+### Screenshot: 
+![image](https://github.com/Ramrachai/ostad-mern/assets/47687976/f92d95d6-16e5-4677-9808-adf113308704)
+
+![2023-11-09_00-53-36](https://github.com/Ramrachai/ostad-mern/assets/47687976/a459f1a1-c86d-4081-880f-f09a90717aa0)
+
 
 
 
