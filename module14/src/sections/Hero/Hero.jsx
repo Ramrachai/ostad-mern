@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "@emotion/styled"
 import Button from '@mui/material/Button';
 import Banners from "./Banners"
+import Brands from './Brands';
 
 export default function Hero() {
     return (
@@ -16,6 +17,7 @@ export default function Hero() {
                     <Banners />
                 </Right>
             </Container>
+            <Brands />
         </HeroWrapper>
     )
 }
@@ -23,7 +25,8 @@ export default function Hero() {
 
 const HeroWrapper = styled.section`
     background-color: var(--secondary);
-    height: calc(100vh - 0px);
+    padding: 1.4rem 0px; 
+    height: auto;
     @media (max-width: 768px) {
         height: auto;
     }
