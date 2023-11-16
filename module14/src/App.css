@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/avenir');
 :root {
   --primary: #20B15A;
   --secondary: #D7F5DC;
@@ -15,7 +15,6 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
   color: var(--dark);
 }
 
@@ -25,8 +24,8 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  margin: 0;
 }
 
 a {
@@ -34,7 +33,12 @@ a {
   text-decoration: none;
 }
 
+p, a {
+  font-family: 'Avenir', sans-serif;
+}
+
 button {
+  font-family: 'Poppins', sans-serif;
   cursor: pointer;
   border: none;
   border-radius: 4px;

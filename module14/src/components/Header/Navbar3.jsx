@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import "./NavBar.css";
 import { FaBars, FaXmark } from "react-icons/fa6";
 import logoImg from "../../assets/common/DesignAGENCY.png"
@@ -7,12 +7,13 @@ import logoImg from "../../assets/common/DesignAGENCY.png"
 
 function NavBar() {
     const [click, setClick] = useState(false);
+    const location = useLocation();
 
     const handleClick = () => setClick(!click);
 
     return (
         <>
-            <nav className="navbar">
+            <nav className={`navbar ${location.pathname === "/" ? "bg-primary" : "bg-gray"}`}>
                 <div className="nav-container">
                     <NavLink to="/" className="nav-logo">
                         <img src={logoImg} alt="logo" />

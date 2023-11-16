@@ -3,6 +3,8 @@ import "./App.css";
 import { Home, Projects, Services, Team, Testimonials } from "./pages";
 import Navbar from "./components/Header/Navbar3"
 
+
+
 function App() {
   return (
     <div className="App">
