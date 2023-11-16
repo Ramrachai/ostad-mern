@@ -1,0 +1,55 @@
+.main-menu-content {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 5px 100px;
+    position: relative;
+    width: 1440px;
+}
+
+.main-menu-content .design-AGENCY-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.main-menu-content .design-AGENCY {
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.main-menu-content .div {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+}
+
+.main-menu-content .frame-1 {
+    flex: 0 0 auto !important;
+}
+
+.main-menu-content .frame-instance {
+    border: 1px solid !important;
+    border-color: #20b15a !important;
+    border-radius: 10px !important;
+    display: flex !important;
+    width: 93px !important;
+}
+
+.main-menu-content .frame-1-instance {
+    color: #ffffff !important;
+}
+
+.main-menu-content .design-component-instance-node {
+    background-color: #20b15a !important;
+    border-radius: 10px !important;
+    display: flex !important;
+    width: 105px !important;
+}
