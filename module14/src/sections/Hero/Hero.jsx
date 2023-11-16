@@ -3,11 +3,12 @@ import styled from "@emotion/styled"
 import Button from '@mui/material/Button';
 import Banners from "./Banners"
 import Brands from './Brands';
+import {Wrapper, Container} from "../../components/Common"
 
 export default function Hero() {
     return (
-        <HeroWrapper>
-            <Container>
+        <Wrapper bg="secondary">
+            <HeroContainer>
                 <Left>
                     <h1>Increase Your Customers Loyalty and Satisfaction</h1>
                     <p>We help businesses like yours earn more customers, standout from competitors,  make more money</p>
@@ -16,33 +17,22 @@ export default function Hero() {
                 <Right>
                     <Banners />
                 </Right>
-            </Container>
+            </HeroContainer>
             <Brands />
-        </HeroWrapper>
+        </Wrapper>
     )
 }
 
 
-const HeroWrapper = styled.section`
-    background-color: var(--secondary);
-    padding: 1.4rem 0px; 
-    height: auto;
-    @media (max-width: 768px) {
-        height: auto;
-    }
-`
 
-const Container = styled.div`
+const HeroContainer = styled(Container)`
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem; 
-    width: 80%;
     height: 100%;
-    margin: 0 auto;
     @media (max-width: 768px) {
         flex-direction: column;
-        width: 90%;
     }
 `
 
