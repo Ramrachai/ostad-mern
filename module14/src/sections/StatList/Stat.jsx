@@ -23,9 +23,10 @@ const StatContainer = styled.div`
     padding: 2rem;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 
     &:hover {
-        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
     }
 
     h3 {

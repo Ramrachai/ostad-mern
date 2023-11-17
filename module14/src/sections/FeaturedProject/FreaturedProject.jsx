@@ -1,34 +1,16 @@
-import React, { useState, useEffect } from 'react'
 import { Container, Wrapper } from '../../components/Common'
-import Feature from './Feature'
+import Projects from './Projects';
+import SectionTitle from "../../components/SectionTitle"
+import SectionSubTitle from "../../components/SectionSubTitle"
 
 export default function FreaturedProject() {
-  const [workData, setWorkData] = useState([]);
-
-  useEffect(() => {
-    async function fetchData() {
-      const response = await fetch('../../../database/worklist.json');
-      const data = await response.json();
-      console.log("data==", data)
-      setWorkData(data);
-    }
-    fetchData();
-  }, []);
 
   return (
     <Wrapper>
       <Container>
-        {workData.map((item, index) => {
-          return (
-            <Feature
-              key={index}
-              icon={item.icon}
-              title={item.title}
-              description={item.description}
-              link={item.link}
-            />
-          )
-        })}
+        <SectionTitle title={"Featured Project"}/>
+        <SectionSubTitle subTitle={"We provide the Perfect Solution to your business growth"} />
+        <Projects />
       </Container>
     </Wrapper>
   )
