@@ -3,25 +3,25 @@
       "id": 1,
       "number": "240452",
       "title": "Followers",
-      "icon": "/workIcons/Group.svg"
+      "icon": "https://raw.githubusercontent.com/Ramrachai/ostad-mern/a2970f01c328b2e303fa21abcd2665103c1b7df9/module14/src/assets/home/work/Group%203.svg"
     },
     {
       "id": 2,
       "number": "6300",
       "title": "Solved Problems",
-      "icon": "/workIcons/Like.svg"
+      "icon": "https://raw.githubusercontent.com/Ramrachai/ostad-mern/a2970f01c328b2e303fa21abcd2665103c1b7df9/module14/src/assets/home/work/Like.svg"
     },
     {
       "id": 3,
       "number": "25000",
       "title": "Happy Customers",
-      "icon": "/workIcons/Happy1.svg"
+      "icon": "https://raw.githubusercontent.com/Ramrachai/ostad-mern/a2970f01c328b2e303fa21abcd2665103c1b7df9/module14/src/assets/home/work/Happy%20%201.svg"
     },
     {
       "id": 4,
       "number": "360452",
       "title": "Projects",
-      "icon": "/workIcons/Scan3.svg"
+      "icon": "https://raw.githubusercontent.com/Ramrachai/ostad-mern/a2970f01c328b2e303fa21abcd2665103c1b7df9/module14/src/assets/home/work/Scan%203.svg"
     }
   ]
   

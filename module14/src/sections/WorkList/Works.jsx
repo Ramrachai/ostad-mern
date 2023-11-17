@@ -7,7 +7,7 @@ export default function Works() {
 
     useEffect(() => {
         async function fetchData() {
-            const response = await fetch('../../../database/worklist.json');
+            const response = await fetch('https://raw.githubusercontent.com/Ramrachai/ostad-mern/main/module14/database/worklist.json');
             const data = await response.json();
             setWorkData(data);
         }

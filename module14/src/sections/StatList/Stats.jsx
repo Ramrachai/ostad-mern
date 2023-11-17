@@ -7,7 +7,7 @@ export default function Stats() {
 
     useEffect(() => {
         async function fetchData() {
-            const response = await fetch('../../../database/statData.json');
+            const response = await fetch('https://raw.githubusercontent.com/Ramrachai/ostad-mern/main/module14/database/statData.json');
             const data = await response.json();
             setStatData(data);
         }
