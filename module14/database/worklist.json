@@ -4,21 +4,21 @@
       "title": "Grow Your Business",
       "description": "We help identify the best ways to improve your business",
       "link": "#",
-      "icon": "/workIcons/Activity.svg"
+      "icon": "../src/assets/home/work/Activity.svg"
     },
     {
       "id": 2,
       "title": "Improve brand loyalty",
       "description": "We help identify the best ways to improve your business",
       "link": "#",
-      "icon": "/workIcons/Heart.svg"
+      "icon": "../src/assets/home/work/Heart.svg"
     },
     {
       "id": 3,
       "title": "Improve Business Model",
       "description": "We help identify the best ways to improve your business",
       "link": "#",
-      "icon": "/workIcons/Work.svg"
+      "icon": "../src/assets/home/work/Work.svg"
     }
   ]
   
