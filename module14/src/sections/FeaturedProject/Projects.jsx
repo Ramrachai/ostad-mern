@@ -7,7 +7,7 @@ export default function Projects() {
     const [projectsData, setProjectsData] = useState([]);
     useEffect(() => {
         async function fetchData() {
-            const response = await fetch('../../../database/projectList.json');
+            const response = await fetch('https://raw.githubusercontent.com/Ramrachai/ostad-mern/main/module14/database/projectList.json');
             const data = await response.json();
             setProjectsData(data);
         }
