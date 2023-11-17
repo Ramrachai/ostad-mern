@@ -3,7 +3,6 @@ import {Wrapper, Container} from "../../components/Common"
 import SectionTitle from '../../components/SectionTitle'
 import SectionSubTitle from '../../components/SectionSubTitle'
 import Works from './Works'
-import styled from '@emotion/styled'
 
 export default function WorkList() {
   return (
