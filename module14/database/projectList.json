@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "App Redesign",
+    "category": "App Design",
+    "link": "#",
+    "date": "June 20, 2022",
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/1657a3240a5be1c49af3ffb2f0f2d75ff0e9c1e6/module14/src/assets/home/projects/Mask.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Redesign channel website landng page",
+    "category": "App Design",
+    "link": "#",
+    "date": "June 20, 2022",
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/1657a3240a5be1c49af3ffb2f0f2d75ff0e9c1e6/module14/src/assets/home/projects/Mask2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "E-commerce App Design",
+    "category": "App Design",
+    "link": "#",
+    "date": "June 20, 2022",
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/1657a3240a5be1c49af3ffb2f0f2d75ff0e9c1e6/module14/src/assets/home/projects/Mask3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Social Media App Redesign",
+    "category": "App Design",
+    "link": "#",
+    "date": "June 20, 2022",
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/1657a3240a5be1c49af3ffb2f0f2d75ff0e9c1e6/module14/src/assets/home/projects/Mask4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Fitness App Design",
+    "category": "App Design",
+    "link": "#",
+    "date": "June 20, 2022",
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/1657a3240a5be1c49af3ffb2f0f2d75ff0e9c1e6/module14/src/assets/home/projects/Mask5.jpg"
+  }
+]
