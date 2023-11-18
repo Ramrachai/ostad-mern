@@ -23,11 +23,6 @@ export default function Breadcrum() {
     )
 }
 
-Breadcrum.propTypes = {
-    prevPage: PropTypes.string,
-    currentPage: PropTypes.string
-};
-
 
 const BreadcrumContainer = styled.div`
     height: 250px;

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Wrapper, Container } from "../../components/Common.jsx"
 import SectionTitle from "../../components/SectionTitle.jsx"
 import SectionSubtitle from "../../components/SectionSubTitle.jsx"
