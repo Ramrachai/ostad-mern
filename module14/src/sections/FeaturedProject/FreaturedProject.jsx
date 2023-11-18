@@ -6,7 +6,7 @@ import SectionSubTitle from "../../components/SectionSubTitle"
 export default function FreaturedProject() {
 
   return (
-    <Wrapper>
+    <Wrapper bg="secondary">
       <Container>
         <SectionTitle title={"Featured Project"}/>
         <SectionSubTitle subTitle={"We provide the Perfect Solution to your business growth"} />
