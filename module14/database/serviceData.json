@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "title": "Build & Launch without problems",
+    "description": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+    "images": [
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/a/Rectangle%202095a.jpg?raw=true",
+
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/a/Rectangle%202096a.jpg?raw=true",
+
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/a/Rectangle%202097a.jpg?raw=true",
+
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/a/Rectangle%202098a.jpg?raw=true"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Build & Launch without problems",
+    "description": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+    "images": [
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/b/Rectangle%202095.jpg?raw=true",
+
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/b/Rectangle%202096.jpg?raw=true",
+
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/b/Rectangle%202097.jpg?raw=true",
+
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/b/Rectangle%202098.jpg?raw=true"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Build & Launch without problems",
+    "description": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+    "images": [
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/c/Rectangle%202095.jpg?raw=true",
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/c/Rectangle%202096.jpg?raw=true",
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/c/Rectangle%202097.jpg?raw=true",
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/c/Rectangle%202098.jpg?raw=true"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Build & Launch without problems",
+    "description": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+    "images": [
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/d/Rectangle%202095.jpg?raw=true",
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/d/Rectangle%202096.jpg?raw=true",
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/d/Rectangle%202097.jpg?raw=true",
+      "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/services/d/Rectangle%202098.jpg?raw=true"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Devon Lane",
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/team/851cbefae9addb91d761eb82065714fb.png?raw=true",
+    "social": {
+      "facebook": "https://www.facebook.com/devon.lane.9",
+      "twitter": "https://twitter.com/DevonLaneMusic",
+      "instagram": "https://www.instagram.com/devonlanemusic/",
+      "youtube": "https://www.youtube.com/channel/UC9QY5X3XQqgY8rXQX6YQ4jQ",
+      "spotify": "https://open.spotify.com/artist/5Z9XtQz3Z1p8QXqgYXbXIO",
+      "soundcloud": "https://soundcloud.com/devonlane"
+    }
+  },
+
+  {
+    "id": 2,
+    "name": "Danny Bailey",
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/team/06f300ad5aa5c0fc5b7172ca2f983ed0.png?raw=true",
+    "social": {
+      "facebook": "https://www.facebook.com/devon.lane.9",
+      "twitter": "https://twitter.com/DevonLaneMusic",
+      "instagram": "https://www.instagram.com/devonlanemusic/",
+      "youtube": "https://www.youtube.com/channel/UC9QY5X3XQqgY8rXQX6YQ4jQ",
+      "spotify": "https://open.spotify.com/artist/5Z9XtQz3Z1p8QXqgYXbXIO",
+      "soundcloud": "https://soundcloud.com/devonlane"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Alex Lov",
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/team/a621cb3bac42a14656a50f74e829e95d.png?raw=true",
+    "social": {
+      "facebook": "https://www.facebook.com/alex.lov.5",
+      "twitter": "https://twitter.com/alexlov",
+      "instagram": "https://www.instagram.com/alexlov/",
+      "youtube": "https://www.youtube.com/channel/UC9QY5X3XQqgY8rXQX6YQ4jQ",
+      "spotify": "https://open.spotify.com/artist/5Z9XtQz3Z1p8QXqgYXbXIO",
+      "soundcloud": "https://soundcloud.com/devonlane"
+    }
+  }
+]
