@@ -1,10 +1,9 @@
-import React from 'react'
 import styled from '@emotion/styled'
-import googleLogo from "../../assets/home/hero/logos/logos_google.png"
-import trelloLogo from "../../assets/home/hero/logos/Trello-logo-blue 1.png"
-import mondayLogo from "../../assets/home/hero/logos/logos_monday.png"
-import notionLogo from "../../assets/home/hero/logos/Notion.png"
-import slackLogo from "../../assets/home/hero/logos/Slack.png"
+import googleLogo from "../../../../assets/home/hero/logos/logos_google.png"
+import trelloLogo from "../../../../assets/home/hero/logos/Trello-logo-blue 1.png"
+import mondayLogo from "../../../../assets/home/hero/logos/logos_monday.png"
+import notionLogo from "../../../../assets/home/hero/logos/Notion.png"
+import slackLogo from "../../../../assets/home/hero/logos/Slack.png"
 
 
 export default function Brands() {

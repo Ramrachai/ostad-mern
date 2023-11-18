@@ -1,7 +1,7 @@
-import { Container, Wrapper } from '../../components/Common'
+import { Container, Wrapper } from '../../../../components/Common'
 import Projects from './Projects';
-import SectionTitle from "../../components/SectionTitle"
-import SectionSubTitle from "../../components/SectionSubTitle"
+import SectionTitle from "../../../../components/SectionTitle"
+import SectionSubTitle from "../../../../components/SectionSubTitle"
 
 export default function FreaturedProject() {
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Wrapper } from '../../components/Common'
+import { Container, Wrapper } from '../../../../components/Common'
 import Stats from './Stats'
 
 

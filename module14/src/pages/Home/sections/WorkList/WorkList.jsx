@@ -1,7 +1,7 @@
 import React from 'react'
-import {Wrapper, Container} from "../../components/Common"
-import SectionTitle from '../../components/SectionTitle'
-import SectionSubTitle from '../../components/SectionSubTitle'
+import {Wrapper, Container} from "../../../../components/Common"
+import SectionTitle from '../../../../components/SectionTitle'
+import SectionSubTitle from '../../../../components/SectionSubTitle'
 import Works from './Works'
 
 export default function WorkList() {

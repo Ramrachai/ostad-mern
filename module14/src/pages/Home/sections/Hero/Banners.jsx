@@ -1,10 +1,10 @@
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2';
-import img1 from "../../assets/home/hero/banners/Rectangle 1241.jpg"
-import img2 from "../../assets/home/hero/banners/Rectangle 1242.jpg"
-import img3 from "../../assets/home/hero/banners/Rectangle 1243.jpg"
-import img4 from "../../assets/home/hero/banners/Rectangle 1244.jpg"
+import img1 from "../../../../assets/home/hero/banners/Rectangle 1241.jpg"
+import img2 from "../../../../assets/home/hero/banners/Rectangle 1242.jpg"
+import img3 from "../../../../assets/home/hero/banners/Rectangle 1243.jpg"
+import img4 from "../../../../assets/home/hero/banners/Rectangle 1244.jpg"
 
 
 export default function FullWidthGrid() {

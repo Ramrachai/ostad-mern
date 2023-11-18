@@ -1,5 +1,4 @@
-import React from 'react'
-import { Icon } from '../../components/Common'
+import { Icon } from '../../../../components/Common'
 import styled from '@emotion/styled';
 
 

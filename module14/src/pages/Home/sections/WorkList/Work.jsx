@@ -1,5 +1,5 @@
 import React from 'react'
-import { Icon } from '../../components/Common'
+import { Icon } from '../../../../components/Common'
 import { FaArrowRightLong } from "react-icons/fa6";
 import styled from '@emotion/styled';
 

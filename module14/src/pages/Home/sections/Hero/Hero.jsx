@@ -1,9 +1,8 @@
-import React from 'react'
 import styled from "@emotion/styled"
 import Button from '@mui/material/Button';
 import Banners from "./Banners"
 import Brands from './Brands';
-import {Wrapper, Container} from "../../components/Common"
+import {Wrapper, Container} from "../../../../components/Common"
 
 export default function Hero() {
     return (

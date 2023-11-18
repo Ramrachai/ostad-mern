@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import Stat from './Stat'
 import styled from '@emotion/styled';
 

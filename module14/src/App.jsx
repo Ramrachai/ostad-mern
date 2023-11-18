@@ -3,7 +3,7 @@ import "./App.css";
 import { Home, Projects, Services, Team, Testimonials } from "./pages";
 import Navbar from "./components/Header/Navbar3"
 import Footer from "./components/Footer"
-import Subscribe from "./sections/Subscribe/Subscribe"
+import Subscribe from "./components/Subscribe/Subscribe"
 
 function App() {
   return (
