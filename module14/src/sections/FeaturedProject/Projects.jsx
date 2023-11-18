@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Project from './Project'
 import styled from '@emotion/styled';
 
@@ -38,20 +38,28 @@ const ProjectsContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
-    @media(max-width: 768px) {
+
+    a:first-child {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+
+    @media (max-width: 768px) {
         margin-top: 2rem;
         grid-template-columns: repeat(2, 1fr);
+       
+        a:first-child {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+        }
     }
-    @media(max-width: 480px) {
+    @media (max-width: 480px) {
         margin-top: 2rem;
         grid-template-columns: repeat(1, 1fr);
     }  
 
-    a:first-child {
-        /* background: red; */
-        grid-column: 1 / 3;
-        grid-row: 1/3;
-    }
+
+
 `
 
 
