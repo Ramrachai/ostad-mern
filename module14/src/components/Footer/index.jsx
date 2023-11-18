@@ -1,7 +1,8 @@
 import React from 'react'
+import { Wrapper } from '../Common'
 
 export default function Footer() {
   return (
-    <div>Footer</div>
+    <Wrapper bg="dark">Footer</Wrapper>
   )
 }
