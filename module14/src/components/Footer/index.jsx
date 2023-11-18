@@ -1,4 +1,3 @@
-import React from 'react'
 import { Wrapper, Container } from '../Common'
 import styled from '@emotion/styled'
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa'
