@@ -37,5 +37,8 @@ const Icon = ({icon}) => {
     )
 }
 
+
 export  {Wrapper, Container, Icon};
+
+
 

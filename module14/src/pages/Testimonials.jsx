@@ -1,6 +1,9 @@
+import Breadcrum from "../components/Breadcrum";
 
 export default function Contact() {
   return (
-    <div> Testimonial Page</div>
+    <div>
+      <Breadcrum />
+    </div>
   )
 }

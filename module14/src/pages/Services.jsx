@@ -1,6 +1,7 @@
+import Breadcrum from "../components/Breadcrum";
 
 export default function Services() {
   return (
-    <div> Services page</div>
+    <div><Breadcrum /></div>
   )
 }

@@ -1,8 +1,14 @@
+import Breadcrum from "../components/Breadcrum";
+import { Container, Wrapper } from "../components/Common";
 
 export default function Team() {
+
     return (
-        <div>
-            Team page
-        </div>
+        <Wrapper bg="gray">
+            <Container>
+                <Breadcrum/>
+
+            </Container>
+        </Wrapper>
     )
 }

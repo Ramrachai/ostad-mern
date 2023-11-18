@@ -3,6 +3,7 @@ import "./App.css";
 import { Home, Projects, Services, Team, Testimonials } from "./pages";
 import Navbar from "./components/Header/Navbar3"
 import Footer from "./components/Footer"
+import Subscribe from "./sections/Subscribe/Subscribe"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/testimonial" element={<Testimonials />} />
         </Routes>
       </div>
+      <Subscribe />
       <Footer />
     </div>
   );
