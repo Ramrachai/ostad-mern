@@ -6,7 +6,7 @@ import styled from '@emotion/styled'
 export default function ProjectItem({ title, description, image }) {
   return (
     <ProjectItemContainer>
-      <img src={Image} alt={title} />
+      <img src={image} alt={title} />
         <h3>{title}</h3>
     </ProjectItemContainer>
   )
