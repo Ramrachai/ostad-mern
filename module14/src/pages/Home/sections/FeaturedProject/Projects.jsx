@@ -39,7 +39,7 @@ const ProjectsContainer = styled.div`
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 
-    a:first-child {
+    a:first-of-type {
         grid-column: 1 / 3;
         grid-row: 1 / 3;
     }
@@ -48,7 +48,7 @@ const ProjectsContainer = styled.div`
         margin-top: 2rem;
         grid-template-columns: repeat(2, 1fr);
        
-        a:first-child {
+        a:first-of-type {
             grid-column: 1 / 2;
             grid-row: 1 / 2;
         }

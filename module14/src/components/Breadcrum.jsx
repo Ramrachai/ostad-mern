@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import PropTypes from 'prop-types';
 import { useLocation } from 'react-router-dom';
 
-export default function Breadcrum() {
+export default function Breadcrum({bg}) {
 
     const location = useLocation();
     const { pathname } = location;
@@ -12,23 +12,37 @@ export default function Breadcrum() {
     const currentPage = paths[paths.length - 1];
 
     return (
-        <BreadcrumContainer style={{ position: "relative" }}>
-            <PageTitle>{currentPage}</PageTitle>
-            <PageLinks>
-                <Link to={`/`}>Home</Link>
-                <MdKeyboardArrowRight size={"1.4em"} />  
-                <span className='current-page'>{currentPage}</span>
-            </PageLinks>
-        </BreadcrumContainer>
+        <BreadcrumWrapper bg={bg}>
+            <BreadcrumContainer >
+                <PageTitle>{currentPage}</PageTitle>
+                <PageLinks>
+                    <Link to={`/`}>Home</Link>
+                    <MdKeyboardArrowRight size={"1.4em"} />  
+                    <span className='current-page'>{currentPage}</span>
+                </PageLinks>
+            </BreadcrumContainer>
+        </BreadcrumWrapper>
     )
 }
 
 
-const BreadcrumContainer = styled.div`
+const BreadcrumWrapper = styled.div`
+    background-color: var(--${props => props.bg});
     height: 250px;
+
     @media (max-width: 768px) {
-        height: 120px;
-    
+        height: 180px;
+    }
+`
+
+const BreadcrumContainer = styled.div`
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    @media (max-width: 768px) {
+        width: 90%;
     }
 `
 

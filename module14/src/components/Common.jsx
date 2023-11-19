@@ -37,8 +37,12 @@ const Icon = ({icon}) => {
     )
 }
 
+const Spacing = styled.div`
+    height: ${props => props.height}rem;
+    width: 100%;
+`
 
-export  {Wrapper, Container, Icon};
+export  {Wrapper, Container, Icon, Spacing};
 
 
 

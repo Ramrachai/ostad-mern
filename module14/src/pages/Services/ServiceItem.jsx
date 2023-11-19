@@ -78,16 +78,16 @@ const ImgContainer = styled.div`
         }
 
     }
-    img:first-child {
+    img:first-of-type {
         grid-column: 1 / 9;
     }
-    img:nth-child(2) {
+    img:nth-of-type(2) {
         grid-column: 9 / 13;
     }
-    img:nth-child(3) {
+    img:nth-of-type(3) {
         grid-column: 1 / 7;
     }
-    img:nth-child(4) {
+    img:nth-of-type(4) {
         grid-column: 7 / 13;
     }
 `

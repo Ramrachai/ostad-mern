@@ -3,42 +3,42 @@
     "id": 1,
     "name": "John Doe",
     "position": "CEO",
-    "reviewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, aliquam mau",
+    "reviewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, aliquam mau. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
     "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/testimonial/Rectangle%202097.png?raw=true"
   },
   {
     "id": 2,
     "name": "Alice Bradley",
     "position": "Backend Developer",
-    "reviewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, aliquam mau",
+    "reviewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, aliquam mau. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
     "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/testimonial/Rectangle%202097-1.png?raw=true"
   },
   {
     "id": 3,
     "name": "John Smith",
     "position": "CTO",
-    "reviewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, aliquam mau",
+    "reviewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, aliquam mau. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
     "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/testimonial/Rectangle%202097-2.png?raw=true"
   },
   {
     "id": 4,
     "name": "Jane Doe",
     "position": "Frontend Developer",
-    "reviewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, aliquam mau",
+    "reviewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, aliquam mau. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
     "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/testimonial/Rectangle%202097-3.png?raw=true"
   },
   {
     "id": 5,
     "name": "Bob Smith",
     "position": "Designer",
-    "reviewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, aliquam mau",
+    "reviewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, aliquam mau. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
     "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/testimonial/Rectangle%202097-4.png?raw=true"
   },
   {
     "id": 6,
     "name": "Sarah Johnson",
     "position": "Project Manager",
-    "reviewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, aliquam mau",
+    "reviewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, aliquam mau. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
     "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/testimonial/Rectangle%202097-5.png?raw=true"
   }
 ]
