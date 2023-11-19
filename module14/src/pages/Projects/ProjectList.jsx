@@ -42,10 +42,11 @@ ProjectList.propTypes = {
 const ProjectListContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 4rem;
     margin-top: 4rem;
 
     @media (max-width: 768px) {
       grid-template-columns: repeat(1, 1fr);
+      grid-gap: 2rem;
   }
 `
