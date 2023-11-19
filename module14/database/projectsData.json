@@ -2,31 +2,31 @@
   {
     "id": "1",
     "title": "Lorem ipsum dolor sit consectutar",
-    "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/projects/Rectangle%202097.png?raw=true"
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/main/module14/src/assets/projects/1.png?raw=true"
   },
   {
     "id": "2",
     "title": "Lorem ipsum dolor sit consectutar",
-    "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/projects/Rectangle%202097-1.png?raw=true"
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/main/module14/src/assets/projects/2.png?raw=true"
   },
   {
     "id": "3",
     "title": "Lorem ipsum dolor sit consectutar",
-    "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/projects/Rectangle%202097-2.png?raw=true"
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/main/module14/src/assets/projects/3.png?raw=true"
   },
   {
     "id": "4",
     "title": "Lorem ipsum dolor sit consectutar",
-    "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/projects/Rectangle%202097-3.png?raw=true"
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/main/module14/src/assets/projects/4.png?raw=true"
   },
   {
     "id": "5",
     "title": "Lorem ipsum dolor sit consectutar",
-    "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/projects/Rectangle%202097-4.png?raw=true"
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/main/module14/src/assets/projects/5.png?raw=true"
   },
   {
     "id": "6",
     "title": "Lorem ipsum dolor sit consectutar",
-    "image": "https://github.com/Ramrachai/ostad-mern/blob/f52bdf4b1152227d80913d90e6b419b4aa4f594c/module14/src/assets/projects/Rectangle%202097-5.png?raw=true"
+    "image": "https://github.com/Ramrachai/ostad-mern/blob/main/module14/src/assets/projects/6.png?raw=true"
   }
 ]
