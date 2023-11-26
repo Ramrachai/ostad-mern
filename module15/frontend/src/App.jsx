@@ -11,13 +11,15 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/student/create' element={<CreateStudent />} />
-        <Route path='/student/details/:id' element={<ShowStudent />} />
-        <Route path='/student/edit/:id' element={<EditStudent />} />
-        <Route path='/student/delete/:id' element={<DeleteStudent />} />
-      </Routes>
+      <div className='w-4/5 m-auto mt-4'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/student/create' element={<CreateStudent />} />
+          <Route path='/student/details/:id' element={<ShowStudent />} />
+          <Route path='/student/edit/:id' element={<EditStudent />} />
+          <Route path='/student/delete/:id' element={<DeleteStudent />} />
+        </Routes>
+      </div>
     </>
   );
 };
