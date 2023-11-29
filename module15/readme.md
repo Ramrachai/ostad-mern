@@ -1,5 +1,8 @@
 # Live Link: [https://module15-frontend.vercel.app/](https://module15-frontend.vercel.app/)
 
+## frontend repo: [https://github.com/Ramrachai/module15-frontend](https://github.com/Ramrachai/module15-frontend)
+## backend repor: [https://github.com/Ramrachai/module15-backend](https://github.com/Ramrachai/module15-backend)
+
 ## Demo: 
 ![image](https://github.com/Ramrachai/ostad-mern/assets/47687976/4afb437f-9061-4c31-bc27-df11ee18536d)
 ![image](https://github.com/Ramrachai/ostad-mern/assets/47687976/331d919b-f4f5-41dd-b78a-e943259c3423)
