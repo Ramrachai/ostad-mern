@@ -18,4 +18,5 @@ This is a repository to showcase all the assignments or projects while pursuing 
 ### 15. Module-15 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module15"> Click here </a>
 ### 16. Module-16 assignment link => Holiday Module. No assignment
 ### 17. Module-17 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module17/backend/models"> Click here </a>
+### 18. Module-18 assignment link => <a href="https://github.com/Ramrachai/ostad-mern/tree/main/module18/backend/"> Click here </a>
 
